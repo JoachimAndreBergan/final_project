@@ -1,4 +1,31 @@
 body{
     height: 100vh;
-    background-image:url(../assets/);
+    background-image:url(../assets/menu_page_background.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;   
+}
+
+.menu_container{
+    width: 920px;
+    height: 510px;
+    background-image: url(../assets/meu_background.jpg);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+.item{
+    float: left;
+    background-color: blue;
+    color: rgb(236, 0, 0);
+    width: 125px;
+    line-height: 125px;
+    text-align: center;
+    margin: 10px;
 }
