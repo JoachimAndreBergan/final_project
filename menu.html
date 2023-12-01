@@ -17,10 +17,13 @@
         <h1>Menu</h1>
 
         <div class="buttons">
-            <button class="button">Show All</button>
-            <button class="button">Chicken</button>
-            <button class="button">Vegetable</button>
-            <button class="button">Meat</button>
+            <button class="button" onclick="filterObjects('all')">Show All</button>
+            <button class="button" onclick="filterObjects('chicken')">Chicken</button>
+            <button class="button" onclick="filterObjects('vegetable')">Vegetable</button>
+            <button class="button" onclick="filterObjects('meat')">Meat</button>
+            <button class="button" onclick="filterObjects('appetizers')">Appetizers</button>
+            <button class="button" onclick="filterObjects('main_courses')">Main Courses</button>
+            <button class="button" onclick="filterObjects('desserts')">Desserts</button>
 
         </div>
 
@@ -30,26 +33,26 @@
 
                 <h2>Appetizers</h2>
 
-                <div class="item">
+                <div class="item chicken">
                     <h3>Charcuterie</h3>
                     <p>(camembert, brie, and castello cheese
                     served with rosemary,garlic confit, and
                     chicken liver patè)</p>
                 </div>
 
-                <div class="item">
+                <div class="item chicken" >
                     <h3>Poulette Foie Gras</h3>
-                    <p>(goose liver patè, served with
+                    <p>(chicken liver patè, served with
                         thyme infused beurre blanc)</p>
                 </div>
 
-                <div class="item">
+                <div class="item meat">
                     <h3>Tartar de bæuf</h3>
                     <p>(raw filèt mignon mince
                         with onions and black pepper)</p>
                 </div>
 
-                <div class="item">
+                <div class="item vegetable">
                     <h3>French onion soup</h3>
                     <p>(Caramelized onions in veggie broth,
                         topped with a flambert cheese baguette)</p>
@@ -60,7 +63,7 @@
 
                 <h2>Main Courses</h2>
 
-                <div class="item">
+                <div class="item meat">
                     <h3>ChateuBriand</h3>
                     <p>(150g filet mignong, served with
                         pommes dephine, and bordelaise)</p>
@@ -71,13 +74,13 @@
                     <p>( 8 snails, served in garlic butter)</p>
                 </div>
 
-                <div class="item">
+                <div class="item vegetable">
                     <h3>Ratatouille</h3>
                     <p>(French vegetable stew, with tomates,
                         onions, aubergine, and squash)</p>
                 </div>
 
-                <div class="item">
+                <div class="item chicken">
                     <h3>Coq au vin</h3>
                     <p>(chicken braised in red whine, with
                         mushrooms, thyme, and onions.
@@ -89,7 +92,7 @@
 
                 <h2>Desserts</h2>
 
-                <div class="item">
+                <div class="item ">
                     <h2>Petite four</h2>
                     <p>(A selection of 4 bite sized cakes)</p>
                 </div>

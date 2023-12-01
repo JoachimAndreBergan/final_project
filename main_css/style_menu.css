@@ -37,6 +37,7 @@ body{
     line-height: 20px;
     text-align: center;
     margin: 10px;
+    display: none;
 }
 
 .objects h2{

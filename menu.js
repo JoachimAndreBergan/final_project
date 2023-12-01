@@ -1,3 +1,6 @@
+filterObjects("all");
+
+
 function filterObjects(c){
     let x, i;
     x = document.getElementsByClassName("item");
@@ -28,4 +31,6 @@ function removeClass(element, name){
         arr1.splice(arr1.indexOf (arr2[i]), 1)
         }
     }
+    element.className = arr1.join("");
 }
+
