@@ -8,13 +8,24 @@
     <link rel="stylesheet" href="./main_css/variables.css">
     <link rel="stylesheet" href="./main_css/fonts.css">
     <link rel="stylesheet" href="./main_css/style_menu.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 
 
 <body>
 
     <nav>
-        <label class="logo"><img src="./assets/cuisine_xclusive_logo.svg" alt="Logo witch says Cuisine Xclusive"></label>
+        <label class="logo"><a href="home.html"><img src="./assets/cuisine_xclusive_logo.svg" alt="Logo witch says Cuisine Xclusive"></a></label>
+        <ul>
+            <li><a class="active" href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <label id="icon">
+            <i class="fa fa-bars"></i>
+        </label>
     </nav>
 
     <div class="menu_container">

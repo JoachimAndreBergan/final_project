@@ -3,14 +3,57 @@ body{
     background-image:url(../assets/menu_page_background.jpg);
     background-size: cover;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;   
 }
 
+nav{
+    text-decoration: none;
+    list-style: none;
+    height: 150px;
+    width: 100%;
+    background: #000000cc;
+}
+
+nav ul{
+    float: right;
+    margin-right:40px;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 150px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
+}
+
+a.active, a:hover{
+    border: 1px solid white;
+    transition: .5s;
+}
+
+nav #icon{
+    color: white;
+    font-size: 30px;
+}
+
+
+
+
 .menu_container{
     width: 920px;
     height:600px;
+    margin-top: 30px;
     background-image: url(../assets/meu_background.jpg);
     border: 2px solid black;
     display: flex;
@@ -80,6 +123,7 @@ body{
     background-color:transparent;
     cursor: pointer;
     border-bottom: 5px solid black;
+    text-decoration: underline;
 }
 
 .button2{
