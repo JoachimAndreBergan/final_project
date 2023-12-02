@@ -4,68 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" href="./CSS/reset.css">
-    <link rel="stylesheet" href="./CSS/variables.css">
-    <link rel="stylesheet" href="./CSS/fonts.css">
+    <link rel="stylesheet" href="./main_css/reset.css">
+    <link rel="stylesheet" href="./main_css/variables.css">
+    <link rel="stylesheet" href="./main_css/fonts.css">
     <link rel="stylesheet" href="./main_css/style_home.css">
 </head>
 <body>
+    <div class="container">
+        <div class="navbar">
 
-    <div class="navbar">
+            <nav>
+                <label class="logo"><a href="home.html"><img src="./assets/cuisine_xclusive_logo.svg" alt="Logo witch says Cuisine Xclusive"></a></label>
+                <ul>
+                    <li><a class="active" href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
 
-        <nav>
-            <label class="logo"><a href="home.html"><img src="./assets/cuisine_xclusive_logo.svg" alt="Logo witch says Cuisine Xclusive"></a></label>
-            <ul>
-                <li><a class="active" href="home.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-
-    </div>
-
-    <div class="home_page_box">
-
-        <div class="title_container">
-            <h2>Lè Cuisine</h2>
-            <h1>Xclusive</h1>
-            <h3>Resturant des le artistes</h3>
         </div>
-        
-        
-            <div class="socialMedia_icon_container">
-                <a href="http://www.facebook.com"><img src="./assets/facebook_icon.svg" alt="Circular icon, with Facebook logo"></a>
-                <a href="http://www.instagram.com"><img src="./assets/instagram_icon.svg" alt="Circular icon, with Instagram logo"></a>
+
+        <div class="home_page_box">
+
+            <div class="title_container">
+                <p>Lè Cuisine</p>
+                <h1>Xclusive</h1>
+                <h3>Resturant des le artistes</h3>
+
+                <div class="row">
+
+                    <a href="contact.html">Get in Touch</a>
+                    <a href="menu.html">Our Menu  <span>&#x2192;</span></a>
+                    <span>More than <br> a resturant, its an experience</span>
+
+                </div>
 
             </div>
 
-        <div class="bottom_container">
-            
-            <div class="button_container">
-                <button>Get in touch</button>
-                <button>Our Menu</button>
-            </div>
 
-            <div class="quote_container">
-                <h2> More than <br> a resturant, it`s an experience</h2>
+            <div class="social_icons">
+                <a href=""><img src="" alt=""></a>
             </div>
-
-            
 
         </div>
 
     </div>
-
-
-
-
-
-
-
-
-
-
     <script src="home.js"></script>
 </body>
 </html>
