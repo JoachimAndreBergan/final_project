@@ -1,3 +1,6 @@
-*{
-    font-family:;
+@font-face {
+    font-family: "Julius Sans One";
+    src: url(../assets/Julius_Sans_One/JuliusSansOne-Regular.ttf);
+    font-weight: 400;
+    font-style: normal;
 }
