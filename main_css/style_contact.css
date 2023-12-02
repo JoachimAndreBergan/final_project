@@ -58,3 +58,45 @@ ul a:hover{
     border: 1px solid white;
     transition: .5s;
 }
+
+
+.contact_textbox{
+    position: absolute;
+    display: flex;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(81, 81, 81, 0.436);
+    color: white;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px 40px 40px 30px;
+    left: 8%;
+    top: 30%;
+}
+
+.contact_textbox h1{
+    padding-bottom: 30px;
+    text-decoration: underline;
+}
+
+.contact_textbox p{
+    margin-top: 20px;
+}
+
+.social_icons{
+    position: absolute;
+    right: 1%;
+    bottom: 8%;
+}
+.social_icons img{
+    width: 40px;
+    display: block;
+    margin: 25px 5px;
+}
