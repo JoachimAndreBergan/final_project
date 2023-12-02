@@ -79,6 +79,10 @@ ul a:hover{
     font-size: 190px;
     line-height: 160px;
     margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background: url(../assets/back.png);
+    -webkit-background-clip: text;
 }
 
 .title_container h3 {
@@ -110,17 +114,15 @@ ul a:hover{
     margin-left: 5px;
 }
 
+.social_icons{
+    position: absolute;
+    right: 1%;
+    bottom: 8%;
+}
 
-
-
-
-.socialMedia_icon_container{
-    height: fit-content;
-    width: fit-content;
-    display: flex;
-    flex-direction: column;
-    justify-self: center;
-    align-self: flex-end;
-    background-color: aqua;
+.social_icons img{
+    width: 40px;
+    display: block;
+    margin: 25px 5px;
 }
 
