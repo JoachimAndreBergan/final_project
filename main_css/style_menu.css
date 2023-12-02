@@ -10,7 +10,7 @@ body{
 
 .menu_container{
     width: 920px;
-    height: 510px;
+    height:fit-content;
     background-image: url(../assets/meu_background.jpg);
     border: 2px solid black;
     display: flex;
@@ -20,18 +20,19 @@ body{
 }
 
 .objects{
-    height: 70%;
+    height:fit-content;
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content:space-around;
     align-items: center; 
 }
 
 .item{
     float: center;
-    background-color: blue;
-    color: rgb(236, 0, 0);
+    background-color:transparent;
+    color: rgb(0, 0, 0);
     height:5rem;
     width: 270px;
     line-height: 20px;
@@ -49,15 +50,48 @@ body{
 }
 
 .button{
+    font-weight: 800;
     border: none;
     outline: none;
+    margin-top: 5px;
     margin-bottom: 20px;
     padding: 12px 16px;
-    background-color: aliceblue;
+    background-color:rgb(228, 223, 210);
     cursor: pointer;
 
 }
 
 .button:hover{
-    background-color: violet;
+    background-color: rgba(180, 180, 180, 0.59);
+}
+
+.button2:hover{
+    background-color: rgba(180, 180, 180, 0.628);
+}
+
+
+.course_header{
+    height: fit-content;
+    width: 920px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+    background-color:transparent;
+    cursor: pointer;
+    border-bottom: 5px solid black;
+}
+
+.button2{
+    font-size: 20px;
+    font-weight: 400px;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color:transparent;
+    cursor: pointer;
+    border: 0px;
+}
+
+h1{
+    border-bottom: 5px solid black;
 }
