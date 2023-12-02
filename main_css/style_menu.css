@@ -1,5 +1,6 @@
 body{
     height: 100vh;
+    width: 100%;
     background-image:url(../assets/menu_page_background.jpg);
     background-size: cover;
     display: flex;
@@ -47,7 +48,7 @@ ul a:hover{
 }
 
 
-.page_box{
+.menu_page_box{
     margin-top: 150px;
     display: flex;
     justify-content: center;

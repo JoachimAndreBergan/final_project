@@ -1,4 +1,5 @@
 body{
+    height: 100vh;
     background-image: url(../assets/home_page_background.jpg);
     background-size: cover;
     display: flex;
@@ -18,8 +19,10 @@ body{
     background: #00000096;
 }
 
+
 nav ul{
     float: right;
+    margin-top: 0px;
     margin-right:40px;
 }
 
@@ -44,7 +47,7 @@ ul a:hover{
     transition: .5s;
 }
 
-.page_box{
+.home_page_box{
     margin-top: 150px;
     display: flex;
     justify-content: center;
