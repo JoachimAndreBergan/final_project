@@ -10,7 +10,7 @@ body{
 
 .menu_container{
     width: 920px;
-    height:fit-content;
+    height:600px;
     background-image: url(../assets/meu_background.jpg);
     border: 2px solid black;
     display: flex;
@@ -92,6 +92,6 @@ body{
     border: 0px;
 }
 
-h1{
+.menu_container h1{
     border-bottom: 5px solid black;
 }
