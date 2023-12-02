@@ -3,17 +3,21 @@ body{
     background-image:url(../assets/menu_page_background.jpg);
     background-size: cover;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;   
+    flex-direction: column;
+    align-items: center;
+
 }
 
-nav{
+.navbar{
+    position: fixed;
+    top: 0px;
+    display: block;
     text-decoration: none;
     list-style: none;
     height: 150px;
     width: 100%;
-    background: #000000cc;
+    background: #00000096;
 }
 
 nav ul{
@@ -37,20 +41,22 @@ nav a{
     border-radius: 3px;
 }
 
-a.active, a:hover{
+ul a:hover{
     border: 1px solid white;
     transition: .5s;
 }
 
-nav #icon{
-    color: white;
-    font-size: 30px;
+
+.page_box{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
-
-
 .menu_container{
+    position: static;
     width: 920px;
     height:600px;
     margin-top: 30px;
@@ -60,6 +66,7 @@ nav #icon{
     flex-direction: column;
     justify-content: center;
     align-items: center;  
+    justify-self: center;
 }
 
 .objects{
