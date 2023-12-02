@@ -54,11 +54,29 @@ ul a:hover{
     transition: .5s;
 }
 
+
 .about_textbox{
+    position: absolute;
+    display: flex;
+    height: fit-content;
+    width: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background-color: rgba(128, 128, 128, 0.436);
     color: white;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 20px 40px 40px 30px;
+    left: 8%;
+    top: 30%;
+}
+
+.about_textbox h1{
+    padding-bottom: 30px;
+    text-decoration: underline;
 }
