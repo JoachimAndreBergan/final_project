@@ -1,3 +1,9 @@
+/**
+ * User chooses course type, with buttons "show all" "chicken" "vegetable" and "meat"
+ * param "item" is for selecting the course itenms
+ * param "show" is for displaying the "item" with the class of the clicked button
+ */
+
 filterObjects('all');
 
 

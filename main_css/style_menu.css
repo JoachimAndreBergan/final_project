@@ -7,11 +7,12 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    font-family:"julius";
 
 }
 
 .navbar{
-    position: fixed;
+    position: absolute;
     top: 0%;
     display: block;
     text-decoration: none;
@@ -47,9 +48,7 @@ ul a:hover{
     transition: .5s;
 }
 
-
 .menu_page_box{
-    margin-top: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,15 +56,12 @@ ul a:hover{
 }
 
 .menu_container{
-    position: static;
-    max-width:920px;
-    max-height: 580px;
-    min-width: 300px;
-    min-height: 150px;
-    margin-top: 30px;
-    top: 30%;
+    position: absolute;
+    width: 920px;
+    height: 580px;
+    top: 25%;
     bottom: 20%;
-    background-image: url(../assets/meu_background.jpg);
+    background-image: url(../assets/menu_background.jpg);
     border: 2px solid black;
     display: flex;
     flex-direction: column;
@@ -76,7 +72,7 @@ ul a:hover{
 }
 
 .objects{
-    height:fit-content;
+    height:70%;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -125,7 +121,6 @@ ul a:hover{
     background-color: rgba(180, 180, 180, 0.628);
 }
 
-
 .course_header{
     height: fit-content;
     width:100%;
@@ -150,5 +145,6 @@ ul a:hover{
 }
 
 .menu_container h1{
+    position:static;
     border-bottom: 5px solid black;
 }

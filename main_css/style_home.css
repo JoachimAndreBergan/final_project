@@ -1,3 +1,8 @@
+body{
+    font-family:"julius";
+}
+
+
 .container{
     width: 100%;
     height: 100vh;
@@ -11,10 +16,6 @@
 
 }
 
-
-
-
-
 .navbar{
     position: fixed;
     top: 0px;
@@ -25,7 +26,6 @@
     width: 100%;
     background: #00000027;
 }
-
 
 nav ul{
     float: right;
@@ -72,7 +72,7 @@ ul a:hover{
 
 .title_container p {
     font-size: 50px;
-    font-weight: 600;
+    font-weight: 600;;
 }
 
 .title_container h1 {
@@ -99,12 +99,16 @@ ul a:hover{
     font-weight: 500;
 }
 
-
 .title_container .row{
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     margin-top: 30px;
+}
+
+.row p{
+    font-size: 20px;
+    padding-left: 350px;
 }
 
 .title_container a{
@@ -127,11 +131,6 @@ ul a:hover{
     position: absolute;
     right: 1%;
     bottom: 8%;
-}
-
-.row p{
-    font-size: 20px;
-    padding-left: 300px;
 }
 
 .social_icons img{

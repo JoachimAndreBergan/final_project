@@ -1,5 +1,6 @@
-
-
+body{
+    font-family:"julius";
+}
 
 .container{
     width: 100%;
@@ -14,10 +15,6 @@
 
 }
 
-
-
-
-
 .navbar{
     position: fixed;
     top: 0px;
@@ -28,7 +25,6 @@
     width: 100%;
     background: #00000027;
 }
-
 
 nav ul{
     float: right;
@@ -62,7 +58,6 @@ ul a:hover{
     transition: .5s;
 }
 
-
 .contact_textbox{
     position: absolute;
     display: flex;
@@ -76,6 +71,7 @@ ul a:hover{
     background-color: rgba(81, 81, 81, 0.436);
     color: white;
     border-radius: 20px;
+    
     font-style: normal;
     font-weight: 400;
     line-height: normal;
