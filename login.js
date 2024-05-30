@@ -47,6 +47,23 @@ function checkPassword(){
 function DoValidate()  {
     let IsLogin = checkEmail();
     let IsPassword = checkPassword();
-    if(IsLogin && IsPassword)
+    if(IsLogin && IsPassword){
+    login.innerHTML = `Authenticating <span class="fa fa-spinner fa-spin fa-xl"></span>`
+    setTimeout(function(){
+        login.innerHTML = `Login Successful <span class= "fa fa-check fa-xl"></span>`
+        window.location.href = "./home.html"
+
+    },2000)}
+    else {
+        setTimeout(function () {
+            login.innerHTML = `Login Failed <span class= "fa fa-exclamation fa-xl"></span>`
+            email.value="";
+            email.classList.remove("valid");
+            password.value="";
+            password.classList.remove("valid");
+            window.location.href = "./login.html"
+        },1000)
+        
+    }
 }
 
