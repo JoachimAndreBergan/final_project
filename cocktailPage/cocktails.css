@@ -8,19 +8,57 @@ body{
     height: 100vh;
     background-image: url(../assets/about_page_background.jpg);
     background-size: cover;
+    overflow-y: scroll;
+}
+
+.navbar{
+    position: absolute;
+    top: 0px;
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    height: 150px;
+    width: 100%;
+    background: #00000027;
+}
+
+nav ul{
+    float: right;
+    margin-top: 0px;
+    margin-right:40px;
+}
+
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 150px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    padding: 7px 10px;
+    border-radius: 3px;
 }
 
 .container{
-    position: absolute;
-    transform: translate(-50%, -50%);
+    position:absolute;
+    transform: translate(-50%, -30%);
     top: 50%;
     left: 50%;
     width: 90vw;
     max-width: 37.5em;
-    background-color: white;
+    max-height: fit-content;
+    background-image: url(../assets/menu_background.jpg);
+    background-size:fill;
     padding: 1.8em;
     border-radius: 0.6em;
     box-shadow: 0 1em 3em rgba(2, 9, 38, 0.25);
+    overflow-y: scroll;
+
 }
 
 .search-container{
@@ -52,8 +90,64 @@ body{
     color: white;
 }
 
+#result {
+    color: rgb(0, 0, 0);
+    line-height: 2em;
+}
+
 #result img {
     display: block;
     max-width: 12.5em;
     margin: auto;
+}
+
+#result h2 {
+font-size: 1.25em;
+margin: 0.8em 0 1.6em 0;
+text-align: center;
+text-transform: uppercase;
+font-weight: 600px;
+letter-spacing: 0.05em;
+color: #830000;
+position: relative;
+}
+
+#result h2:before {
+    content: "";
+    position: absolute;
+    width: 15%;
+    height: 3px;
+    background-color: #830000;
+    left: 42.5%;
+    bottom: -0.3em;
+}
+
+#result h3{
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 0.2em;
+    color: #830000;
+}
+
+#result ul{
+    margin-bottom: 1em;
+    margin-left: 1.8em;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#result li{
+    margin-bottom: 0.3em;
+}
+
+#result p {
+    text-align: justify;
+    font-weight: 400;
+    font-size: 0.95em;
+}
+
+@media screen and (max-width:600px) {
+    .container {
+        font-size: 14px;
+    }
 }
