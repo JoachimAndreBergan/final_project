@@ -16,16 +16,21 @@
         <div class="logIn-area" id="LogInArea">
             <h1>Login</h1>
             <div class="form-control">
-                <input type="text" placeholder="Please Enter Email" id="email">
+                <input type="text" placeholder="Please Enter Email" 
+                id="email" 
+                onblur="checkFieldEmpty(this)", checkEmail()/>
                 <label>Email</label>
-                <i class="fa fa-envelope"></i>
+                <i id="emailErr" class="fa fa-envelope"></i>
             </div>
             <div class="form-control">
-                <input type="password" 
+                <input 
+                type="password" 
                 placeholder="Please Enter Password" 
-                id="password">
+                id="password"
+                onblur="checkFieldEmpty(this)", checkPassword()
+                />
                 <label>Password</label>
-                <i class="fa fa-lock"></i>
+                <i id="passErr" class="fa fa-lock"></i>
             </div>
             <div class="form-control">
                 <div class="forget">
@@ -37,7 +42,7 @@
                 </div>
             </div>
             <div class="form-control">
-                <button id="login">Log In</button>
+                <button onclick="DoValidate()"  id="login">Log In</button>
             </div>
         </div>
     
