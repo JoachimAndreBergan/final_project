@@ -1,7 +1,9 @@
 Project is a website for the fictional resturant Cuisine Xclusive.
-Website consist of 4 pages, Home, About, Menu, and contact
+Website consist of 6 pages, Home, About, Menu, contact, cocktail inspiration, and login.
 The Menu page has a sort/filter functionality, where you can choose a protein, and have the menu display all courses containing chosen protein.
 Menu can also sort dishes according to course type, appetizer, main course, and dessert.
+
+The cocktail page uses API to fetch information on different drinks.
 
 Home page has the resturant name in an animated title.
 
