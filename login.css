@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'julius';
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./assets/menu_page_background.jpg);
+    background-size: cover;
+}
+
+.container{
+    width: 400px;
+    margin: 15px;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
+    background-color: hsla(0, 0%, 5%, 0.2);
+    backdrop-filter: blur(2px);
+}
+
+.logIn-area{
+    text-align: center;
+    border-radius: 1px;
+    margin-bottom: 5px;
+    padding: 30px;
+}
+
+.logIn-area h1{
+    color: white;
+}
+
+.form-control{
+    margin: 20px 0;
+    position: relative;
+    color: white;
+}
+
+.form-control input {
+    width: 100%;
+    max-width: 350px;
+    padding: 10px 0;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(121, 11, 33);
+    background: transparent;
+    color: white;
+}
+
+.form-control input::placeholder{
+    opacity: 0;
+}
+
+.form-control label {
+    position: absolute;
+    top: 0;
+    left:0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: white;
+    transition: 0.5s;
+}
+
+.form-control input:focus ~label{
+    top: -20px;
+    left: 0;
+    color: white;
+    font-size: 12px;
+}
+
+.form-control input:focus::placeholder{
+    font-size:12px;
+    color: rgb(121, 121, 121);
+    transition: 0.5s;
+    opacity: 1;
+}
