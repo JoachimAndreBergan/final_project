@@ -40,7 +40,8 @@ body{
     color: white;
 }
 
-.form-control input {
+.form-control input[type='text'],
+input[type='password'] {
     width: 100%;
     max-width: 350px;
     padding: 10px 0;
@@ -78,4 +79,49 @@ body{
     color: rgb(121, 121, 121);
     transition: 0.5s;
     opacity: 1;
+}
+
+.form-control i{
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    color: white;
+    cursor: help;
+}
+
+.forget{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.forget label{
+    position: unset;
+    cursor: pointer;
+    display: flex;
+    gap: 5px;
+    user-select: none;
+    font-size: 14px;
+}
+
+.form-control a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.form-control button{
+    width: 65%;
+    height: 45px;
+    transition: 0.5s;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.form-control button:hover{
+    width: 100%;
+    transition: 0.5s;
 }
