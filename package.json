@@ -1,0 +1,15 @@
+{
+  "name": "final_project",
+  "version": "1.0.0",
+  "description": "Project is a website for the fictional resturant Cuisine Xclusive. Website consist of 4 pages, Home, About, Menu, and contact The Menu page has a sort/filter functionality, where you can choose a protein, and have the menu display all courses containing chosen protein. Menu can also sort dishes according to course type, appetizer, main course, and dessert.",
+  "main": "login.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
